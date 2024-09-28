@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+
+/* Header Styling */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #FFC300;
+}
+
+.logo h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #000;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    padding: 10px 15px;
+}
+
+nav ul li a:hover {
+    background-color: #fff;
+    color: #000;
+    border-radius: 5px;
+}
+
+
+/* Landing Section Styling */
+
+.landing {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #000;
+}
+
+.landing-content {
+    max-width: 600px;
+}
+
+.landing-content h2 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.landing-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.login-btn {
+    padding: 15px 40px;
+    background-color: #FFC300;
+    border: none;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.login-btn:hover {
+    background-color: #fff;
+}
+
+.landing-image img {
+    width: 300px;
+    /* Adjust size according to the image */
+    border-radius: 50%;
+}
+
+.contact {
+    padding: 50px;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #FFC300;
+    margin-bottom: 20px;
+}
+
+.contact form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contact form input {
+    padding: 15px;
+    width: 370px;
+    /* Same width as in the image */
+    border: 3px solid #FFC300;
+    /* Thicker border */
+    background-color: #000;
+    /* Black background */
+    color: #fff;
+    border-radius: 50px;
+    /* Rounded edges */
+    font-size: 18px;
+}
+
+
+/* Ensure the button is always on the next line */
+
+.submit-btn-container {
+    width: 100%;
+    text-align: center;
+    /* Center the button */
+    margin-top: 20px;
+    /* Space between inputs and button */
+}
+
+.contact .submit-btn {
+    padding: 15px 40px;
+    /* Larger padding for the button */
+    background-color: #FFC300;
+    border: none;
+    color: #000;
+    font-size: 22px;
+    /* Larger text for the button */
+    cursor: pointer;
+    border-radius: 50px;
+    /* Rounded edges */
+    font-weight: bold;
+}
+
+.contact .submit-btn:hover {
+    background-color: #fff;
+}
+
+.contact form input::placeholder {
+    color: #FFC300;
+}
+
+.contact .submit-btn:hover {
+    background-color: #fff;
+}
+
+.table-section {
+    padding: 50px;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    color: #fff;
+}
+
+thead {
+    background-color: #FFC300;
+    color: #000;
+}
+
+table th,
+table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #fff;
+}
+
+tbody tr:last-child {
+    background-color: #FFC300;
+    color: #000;
+}
